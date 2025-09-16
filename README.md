@@ -29,7 +29,7 @@ You must get this values from the Azure AI Foundry console:
 
 * `AZURE_OPENAI_KEY` your key .
 * `AZURE_OPENAI_ENDPOINT` the "Target URL" of endpoint to be used.
-* `AZURE_OPENAI_MODEL` the name of the model you deployed. `gpt-4o-mini` works fine.
+* `AZURE_OPENAI_MODEL` the name of the model you deployed. `gpt-4o-mini` works fine and it is not too expensive.
 
 ## Build and installation
 
@@ -101,13 +101,15 @@ This program has the following external dependencies:
   * Search for "Azure OpenAI" in the Marketplace.
   * Click **Create** ans choose your subscription,
   resource group, and region (for instance, `West US 3`).
-  * Set a **deployment name** (for instance, `gpt-4o-mini-whois`) and choose the model `gpt-4o-mini`.
-1. Wait for deployment. Once deployed, note your endpoint
-URL, API keys and deployment name.
+  * Set a **deployment name** (for instance, `gpt-4o-mini-whois`) and choose the model, for example `gpt-4o-mini`.
+1. Wait for deployment. Once deployed, note your endpoint URL, API keys and deployment name.
 
-## Disclaimer
+## Notes
 
-Of course, I am not affiliated with Microsoft in any way. Use their services at your own account and risk. Alternatively, you may modify the program to use the API of your preferred service. You can also use OpenAI's API directly, without Azure, just applying minor changes.
+- Of course, I am not affiliated with Microsoft in any way. Use their services at your own account and risk. Alternatively, you may modify the program to use the API of your preferred service. You can also use OpenAI's API directly, without Azure, by making only minor changes.
+
+- Be aware that you should be polite and run the checker once a week or so, because some WHOIS servers don't like to be queried too often and may block your IP address permanently.
+
 
 ## License
 
