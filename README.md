@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/GPL_v3.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![GitHub all releases](https://img.shields.io/github/downloads/rgglez/nagios-check-domain-ai/total)
 ![GitHub issues](https://img.shields.io/github/issues/rgglez/nagios-check-domain-ai)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rgglez/nagios-check-domain-ai)
