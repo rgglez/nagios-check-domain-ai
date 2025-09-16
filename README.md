@@ -9,12 +9,9 @@
 
 # nagios-check-domain-ai
 
-**check_domain_ai** is a nagios plugin written in [Go](https://go.dev/) to check the
-expiration date of a given domain and notify if it is about to expire.
+**check_domain_ai** is a Nagios plugin written in [Go](https://go.dev/) that checks the expiration date of a given domain and notifies you if it is about to expire.
 
-This plugin queries public [whois](https://www.rfc-editor.org/rfc/rfc3912.txt) servers. It
-tries its best to query the right server for the public suffix or TLD. Then, it parses the
-whois output using Microsoft Azure OpenAI gateway API.
+This plugin queries public [WHOIS](https://www.rfc-editor.org/rfc/rfc3912.txt) servers. It strives to query the appropriate server for the public suffix or TLD. Then, it parses the WHOIS output using the Microsoft Azure AI gateway to OpenAI API.
 
 ## Command line options
 
