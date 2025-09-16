@@ -13,8 +13,8 @@
 expiration date of a given domain and notify if it is about to expire.
 
 This plugin queries public [whois](https://www.rfc-editor.org/rfc/rfc3912.txt) servers. It
-tries its best to query the right server for the publix suffix or TLD. Then, it parses the
-whois output using Microsoft Azure OpenAI gateway.
+tries its best to query the right server for the public suffix or TLD. Then, it parses the
+whois output using Microsoft Azure OpenAI gateway API.
 
 ## Command line options
 
@@ -25,9 +25,11 @@ whois output using Microsoft Azure OpenAI gateway.
 
 ## Required enviroment variables
 
-* `AZURE_OPENAI_KEY` your key.
-* `AZURE_OPENAI_ENDPOINT` the endopoint of the service.
-* `AZURE_OPENAI_DEPLOYMENT_ID` the name of your deployment, as you configured it in the Azure console.
+You must get this values from the Azure AI Foundry console:
+
+* `AZURE_OPENAI_KEY` your key .
+* `AZURE_OPENAI_ENDPOINT` the "Target URL" of endpoint to be used.
+* `AZURE_OPENAI_MODEL` the name of the model you deployed. `gpt-4o-mini` works fine.
 
 ## Build and installation
 
