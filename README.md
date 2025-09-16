@@ -1,4 +1,4 @@
-![License](https://img.shields.io/badge/GPL_v3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![License](https://img.shields.io/badge/GPL_v3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 ![GitHub all releases](https://img.shields.io/github/downloads/rgglez/nagios-check-domain-ai/total)
 ![GitHub issues](https://img.shields.io/github/issues/rgglez/nagios-check-domain-ai)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rgglez/nagios-check-domain-ai)
