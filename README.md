@@ -22,7 +22,7 @@ This plugin queries public [WHOIS](https://www.rfc-editor.org/rfc/rfc3912.txt) s
 
 ## Parser
 
-This program uses the [whoisparserai](github.com/rgglez/whois-parser-ai/whoisparserai) package to parse the WHOIS output using Azure OpenAI
+This program uses the [whoisparserai](https://github.com/rgglez/whois-parser-ai/whoisparserai) package to parse the WHOIS output using Azure OpenAI
 
 You must get this values from the Azure AI Foundry console and set the corresponding enviroment variables:
 
