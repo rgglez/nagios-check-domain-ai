@@ -4,6 +4,8 @@ github.com/likexian/gokit v0.25.15 h1:QjospM1eXhdMMHwZRpMKKAHY/Wig9wgcREmLtf9Nsl
 github.com/likexian/gokit v0.25.15/go.mod h1:S2QisdsxLEHWeD/XI0QMVeggp+jbxYqUxMvSBil7MRg=
 github.com/likexian/whois v1.15.6 h1:hizngFHJTNQDlhwhU+FEGyPGxy8bRnf25gHDNrSB4Ag=
 github.com/likexian/whois v1.15.6/go.mod h1:vx3kt3sZ4mx4XFgpaNp3GXQCZQIzAoyrUAkRtJwoM2I=
+github.com/rgglez/whois-parser-ai v0.0.0-20250917013752-d9d9f9d6ead3 h1:M/sFeRcgg2/4mvcfYOAuVa1kD4RZYTZjEal1Yy8n0MY=
+github.com/rgglez/whois-parser-ai v0.0.0-20250917013752-d9d9f9d6ead3/go.mod h1:keHF/HX/dbTIDUn7Jwh2akv2ZyPUjGHQ4sLNHrfl+10=
 github.com/spf13/pflag v1.0.10 h1:4EBh2KAYBwaONj6b2Ye1GiHfwjqyROoF4RwYO+vPwFk=
 github.com/spf13/pflag v1.0.10/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
 github.com/xorpaul/go-nagios v0.0.0-20150828095130-23a06a37a851 h1:0WAtJKvtDgf83PqbtydAZQKjh48R3ib5Q3Xg0fM/xkQ=

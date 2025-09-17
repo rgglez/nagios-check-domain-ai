@@ -26,6 +26,7 @@ import (
 	"time"
 
 	"github.com/likexian/whois"
+	whoisparserai "github.com/rgglez/whois-parser-ai/whoisparserai"
 	"github.com/spf13/pflag"
 	"github.com/xorpaul/go-nagios"
 	"github.com/ztrue/tracerr"
@@ -48,7 +49,7 @@ var (
 	azureOpenAIModel    string
 )
 
-var client *AzureOpenAIClient
+var azure *whoisparserai.AzureOpenAIClient
 
 //-----------------------------------------------------------------------------
 
@@ -65,7 +66,7 @@ func init() {
 	}
 
 	// Create client
-	client = NewAzureOpenAIClient(azureOpenAIKey, azureOpenAIEndpoint, azureOpenAIModel)
+	azure = whoisparserai.NewAzureOpenAIClient(azureOpenAIKey, azureOpenAIEndpoint, azureOpenAIModel)
 
 	// Parse command line parameters
 	pflag.StringVarP(&domain, "domain", "D", "", "Domain to check")
@@ -141,7 +142,7 @@ func main() {
 	}
 
 	// Parse the whois raw response data
-	result, err := client.ParseWhois(raw)
+	result, err := azure.ParseWhois(raw)
 	if err != nil {
 		tracerr.PrintSource(err)
 		nr := nagios.NagiosResult{
