@@ -65,7 +65,7 @@ Basic example using default server (whois.iana.org):
 
 ```bash
 check_domain_ai -D example.com
-OK: Domain will expire in 159 days|expires=2025-08-13
+OK: Domain will expire in 159 days|expires=2026-08-13
 ```
 
 Using the `servers.json` file:
@@ -101,6 +101,6 @@ This program has the following external dependencies:
 
 ## License
 
-Copyright 2025 Rodolfo González González.
+Copyright 2026 Rodolfo González González.
 
 This program is licensed under the terms of the [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). Please read the [LICENSE](LICENSE.md) file.
